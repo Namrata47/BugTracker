@@ -19,7 +19,7 @@
 			PreparedStatement pStmt = null;
 %><br>
 <%
-    String sql3="select title, type, description, assignee, developer, qa, reporter, coments, estimate, status,id from bugtracker.issue where type='"+Pid+"'" ;
+    String sql3="select title, type, description, assignee, developer, qa, reporter, comments, estimate, status,id from bugtracker.issue where type='"+Pid+"'" ;
     pStmt = (PreparedStatement) conn.prepareStatement(sql3);
     ResultSet rs1 = (ResultSet) pStmt.executeQuery(sql3);
 		 while(rs1.next()){

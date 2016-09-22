@@ -13,12 +13,11 @@
 				</b>
 				</font>
 			</legend>
-	
-		<br><br><table>
+		<table>
 			<tr>
 				<td>Title</td>
 				<td><INPUT TYPE="text" NAME="title" size="100"></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Type</td>
 				<td><SELECT NAME="type">
@@ -27,7 +26,7 @@
 						<OPTION VALUE="Support">Support Task</OPTION>
 						<OPTION VALUE="other">Other</OPTION>
 				</SELECT></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Status</td>
 				<td><SELECT NAME="status">
@@ -38,37 +37,37 @@
 						<OPTION VALUE="hold">On Hold</OPTION>
 						<OPTION VALUE="close">Closed</OPTION>
 				</SELECT></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Estimate Hours</td>
 				<td><INPUT TYPE="text" NAME="estimate"></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Description</td>
 				<td><TEXTAREA NAME="Description" ROWS="5" COLS="100"></TEXTAREA></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Assignee</td>
 				<td><INPUT TYPE="text" NAME="assignee"></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Developer</td>
 				<td><INPUT TYPE="text" NAME="developer"></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>QA</td>
 				<td><INPUT TYPE="text" NAME="qa"></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Reporter</td>
 				<td><INPUT TYPE="text" NAME="Reporter"></td>
-			</tr><br>
+			</tr>
 			<tr>
 				<td>Comments</td>
 				<td><TEXTAREA NAME="comments" ROWS="5" COLS="100"></TEXTAREA></td>
-			</tr><br><br><br>
+			</tr>
 		</table>
-		<INPUT TYPE="submit" name="Create" value="Create" align="middle">
+		<br><br><center><INPUT TYPE="submit" name="Create" value="Create"></center>
 	</fieldset>
 	</FORM>
 </body>

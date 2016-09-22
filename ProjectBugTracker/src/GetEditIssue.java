@@ -55,13 +55,13 @@ public class GetEditIssue extends HttpServlet {
 		String developer = request.getParameter("developer");
 		String qa = request.getParameter("qa");
 		String Reporter = request.getParameter("reporter");
-		String comments = request.getParameter("coments");
+		String comments = request.getParameter("comments");
 
 		PreparedStatement spmt1 = null;
 		Connection con = null;
 		con = (Connection) JdbcConnection.getConnectionString();
 		
-		String sql1 = "update bugtracker.issue set title='"+title+"', type='"+type+"', description='"+Description+"', assignee='"+assignee+"', developer='"+developer+"', qa='"+qa+"', reporter='"+Reporter+"', coments='"+comments+"', estimate='"+estimate+"', status='"+status+"' where id ='"+Pid+"'";
+		String sql1 = "update bugtracker.issue set title='"+title+"', type='"+type+"', description='"+Description+"', assignee='"+assignee+"', developer='"+developer+"', qa='"+qa+"', reporter='"+Reporter+"', comments='"+comments+"', estimate='"+estimate+"', status='"+status+"' where id ='"+Pid+"'";
 		try {
 			spmt1 = (PreparedStatement) con.prepareStatement(sql1);
 			

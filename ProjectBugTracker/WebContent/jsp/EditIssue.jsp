@@ -24,7 +24,7 @@
 			PreparedStatement pStmt2 = null;
 %><br>
 <%
-    String sql3="select title, type, description, assignee, developer, qa, reporter, coments, estimate, status from bugtracker.issue where id='"+Pid+"'" ;
+    String sql3="select title, type, description, assignee, developer, qa, reporter, comments, estimate, status from bugtracker.issue where id='"+Pid+"'" ;
     pStmt = (PreparedStatement) conn.prepareStatement(sql3);
     ResultSet rs1 = (ResultSet) pStmt.executeQuery(sql3);
 		 while(rs1.next()){

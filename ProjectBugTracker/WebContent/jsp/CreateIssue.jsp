@@ -1,18 +1,24 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
-	<FORM METHOD="post" ACTION="/BUGTRACKER/GetCreateIssue">
-		<table>
+	<FORM method="post" action="/ProjectBugTracker/GetCreateIssue">
+	<fieldset>
+					<legend align="center">
+						<font face="Lucida Console" size="5"> <b><u>BUG REPORTING</u>
+				</b>
+				</font>
+			</legend>
+	
+		<br><br><table>
 			<tr>
 				<td>Title</td>
 				<td><INPUT TYPE="text" NAME="title" size="100"></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Type</td>
 				<td><SELECT NAME="type">
@@ -21,7 +27,7 @@
 						<OPTION VALUE="Support">Support Task</OPTION>
 						<OPTION VALUE="other">Other</OPTION>
 				</SELECT></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Status</td>
 				<td><SELECT NAME="status">
@@ -32,38 +38,38 @@
 						<OPTION VALUE="hold">On Hold</OPTION>
 						<OPTION VALUE="close">Closed</OPTION>
 				</SELECT></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Estimate Hours</td>
 				<td><INPUT TYPE="text" NAME="estimate"></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Description</td>
 				<td><TEXTAREA NAME="Description" ROWS="5" COLS="100"></TEXTAREA></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Assignee</td>
 				<td><INPUT TYPE="text" NAME="assignee"></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Developer</td>
 				<td><INPUT TYPE="text" NAME="developer"></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>QA</td>
 				<td><INPUT TYPE="text" NAME="qa"></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Reporter</td>
 				<td><INPUT TYPE="text" NAME="Reporter"></td>
-			</tr>
+			</tr><br>
 			<tr>
 				<td>Comments</td>
 				<td><TEXTAREA NAME="comments" ROWS="5" COLS="100"></TEXTAREA></td>
-			</tr>
+			</tr><br><br><br>
 		</table>
-		<INPUT TYPE="submit" name="Create" value="Create">
-
+		<INPUT TYPE="submit" name="Create" value="Create" align="middle">
+	</fieldset>
 	</FORM>
 </body>
 </html>

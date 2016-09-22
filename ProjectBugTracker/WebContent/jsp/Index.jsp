@@ -6,12 +6,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
-	<a href="CreateIssue.jsp">Create Issue Ticket</a>
-	<a href="">View Issue</a>
-	<a href="">Search Issue</a>
-
-	<table>
+<body >
+	
+<form action="">
+	
+<fieldset>
+					<legend align="center">
+						<font face="Lucida Console" size="5"> <b><u>HOME PAGE</u>
+				</b>
+				</font>
+			</legend>
+			<a href="CreateIssue.jsp">Create Issue Ticket</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="ViewIssue.jsp">View Issue</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><table>
 		<tr>
 			<th colspan=2>Open Issues</th>
 		</tr>
@@ -20,7 +28,8 @@
 			<td>gsccsj</td>
 		</tr>
 	</table>
-
+	</fieldset>
+</form>
 
 </body>
 </html>

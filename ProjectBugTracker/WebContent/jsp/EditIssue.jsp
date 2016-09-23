@@ -12,7 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="#F7DC6F">
  <FORM METHOD="post" ACTION="/ProjectBugTracker/GetEditIssue">
 <%String Pid=(String)session.getAttribute("Pid");
 			Connection conn = null;

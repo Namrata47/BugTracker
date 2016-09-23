@@ -6,7 +6,7 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
+<head><center><h1>VIEW & EDIT ISSUE</h1></center>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
@@ -52,7 +52,8 @@
 		return xmlHttp;
 }
 </script> 
-<body>
+<body bgcolor="#F7DC6F">
+<form action="" style="background-color:#EC7063; width:1350px; height: 70px" >
  
   <br/>
 <%
@@ -67,7 +68,7 @@
 			ResultSet rs1 = (ResultSet) pStmt1.executeQuery(sql1);
 		
 %>
- &nbsp;Issue Id:&nbsp;
+ &nbsp;&nbsp;<span style="font-size:1.1em;">Issue Id</span>:&nbsp;
       <select name='programmeid1' onchange="showState(this.value)">  
       <option value="none">Select</option>  
     <%
@@ -80,10 +81,11 @@
     
      %>
 </select>
-<div id="state">
-</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="EditIssue.jsp"><span style="font-size:1.1em;">Edit Issue</span> </a>
+<br><br><div id="state">
+</div> 
 
-	<a href="EditIssue.jsp">Edit Issue </a>
-
+	
+</form>
 </body>
 </html>

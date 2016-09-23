@@ -6,13 +6,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="#F7DC6F">
 	
-<form action="" style="background-color:#FF5733; width:1500px; height: 100px" >
-			<a href="CreateIssue.jsp">Create Issue Ticket</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="ViewIssue.jsp">View Issue</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	</table>
-	</fieldset>
+<form action="" style="background-color:#EC7063; width:1350px; height: 70px" >
+<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="CreateIssue.jsp"><span style="font-size:1.5em;">Create Issue Ticket</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="ViewIssue.jsp"><span style="font-size:1.5em;">View Issue</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	
 </form>
 
 </body>

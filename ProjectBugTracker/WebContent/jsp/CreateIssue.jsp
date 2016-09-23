@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body bgcolor="#F7DC6F">
 	<FORM method="post" action="/ProjectBugTracker/GetCreateIssue">
 	<fieldset>
 					<legend align="center">

@@ -25,16 +25,16 @@ session.setAttribute("Pid",Pid);
     ResultSet rs1 = (ResultSet) pStmt.executeQuery(sql3);
 		 while(rs1.next()){
 %>
-Title:<%=rs1.getString(1)%><br/><br/>  
-Type:<%=rs1.getString(2)%> <br/><br/> 
-Description:<%=rs1.getString(3)%>  <br/><br/>
-Assignee:<%=rs1.getString(4)%>  <br/><br/>
-Developer:<%=rs1.getString(5)%>  <br/><br/>
-QA:<%=rs1.getString(6)%>  <br/><br/>
-Reporter:<%=rs1.getString(7)%>  <br/><br/>
-Comment:<%=rs1.getString(8)%><br/><br/>
-Estimate:<%=rs1.getString(9)%>  <br/><br/>
-Status:<%=rs1.getString(10)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;Title:<%=rs1.getString(1)%><br/><br/>  
+&nbsp;&nbsp;&nbsp;Type:<%=rs1.getString(2)%> <br/><br/> 
+&nbsp;&nbsp;&nbsp;Description:<%=rs1.getString(3)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;Assignee:<%=rs1.getString(4)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;Developer:<%=rs1.getString(5)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;QA:<%=rs1.getString(6)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;Reporter:<%=rs1.getString(7)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;Comment:<%=rs1.getString(8)%><br/><br/>
+&nbsp;&nbsp;&nbsp;Estimate:<%=rs1.getString(9)%>  <br/><br/>
+&nbsp;&nbsp;&nbsp;Status:<%=rs1.getString(10)%>  <br/><br/>
         
       
       

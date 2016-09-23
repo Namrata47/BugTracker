@@ -75,16 +75,17 @@
 		 while(rs1.next()){
      %>
       <option value="<%=rs1.getString(1)%>"><%=rs1.getString(1)%></option>  
- 
+ 		
       <%
+       
  }
     
      %>
-</select>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="EditIssue.jsp"><span style="font-size:1.1em;">Edit Issue</span> </a>
-<br><br><div id="state">
-</div> 
 
+</select>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="EditIssue.jsp"><span style="font-size:1.1em;">Edit Issue</span> </a>
+    <br><br><div id="state">
+    </div>
 	
 </form>
 </body>

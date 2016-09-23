@@ -4,9 +4,38 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<script>
+/* function ValidationEvent() 
+{
+	// Storing Field Values In Variables
+	var title = document.getElementsByName("title").value;
+	var type = document.getElementsByName("type").value;
+	var status = document.getElementsByName("status").value;
+	var estimate = document.getElementsByName("estimate").value;
+	var description = document.getElementsByName("Description").value;
+	var assignee = document.getElementsByName("assignee").value;
+	var developer = document.getElementsByName("developer").value;
+	var qa = document.getElementsByName("qa").value;
+	var reporter = document.getElementsByName("Reporter").value;
+	var comments = document.getElementsByName("comments").value;
+	
+	// Conditions
+	if ((title == null||title == "") && (estimate == null||estimate=="") && (description == null||description=="") && (assignee == null||assignee == "") && (developer == null||developer == "") && (qa == null||qa == "") && (reporter == null||reporter == "") && (comments == null|| comments == "")) 
+	{
+	alert("All fields are required.....!");
+	return false;
+	} 
+	 else 
+	{
+	alert("Submitted successfully");
+	return true; 
+	} 
+} */
+
+</script>
 </head>
 <body bgcolor="#F7DC6F">
-	<FORM method="post" action="/ProjectBugTracker/GetCreateIssue">
+	<FORM method="post" action="/ProjectBugTracker/GetCreateIssue" >
 	<fieldset>
 					<legend align="center">
 						<font face="Lucida Console" size="5"> <b><u>BUG REPORTING</u>
